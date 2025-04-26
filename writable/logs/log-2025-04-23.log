@@ -1,0 +1,13 @@
+CRITICAL - 2025-04-23 14:13:07 --> Undefined index: 
+#0 E:\APLIKASI\koding\siakad\app\Helpers\terbilang_helper.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\APLIKASI\\kod...', 9, Array)
+#1 E:\APLIKASI\koding\siakad\app\Views\peserta\surat_pindah.php(263): terbilang(NULL)
+#2 E:\APLIKASI\koding\siakad\system\View\View.php(214): include('E:\\APLIKASI\\kod...')
+#3 E:\APLIKASI\koding\siakad\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 E:\APLIKASI\koding\siakad\system\Common.php(1092): CodeIgniter\View\View->render('peserta/surat_p...', Array, true)
+#5 E:\APLIKASI\koding\siakad\app\Controllers\Peserta.php(912): view('peserta/surat_p...', Array)
+#6 E:\APLIKASI\koding\siakad\system\CodeIgniter.php(802): App\Controllers\Peserta->printmohon('0083424329')
+#7 E:\APLIKASI\koding\siakad\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peserta))
+#8 E:\APLIKASI\koding\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\APLIKASI\koding\siakad\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 E:\APLIKASI\koding\siakad\system\Commands\Server\rewrite.php(43): require_once('E:\\APLIKASI\\kod...')
+#11 {main}
